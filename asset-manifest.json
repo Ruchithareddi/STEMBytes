@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/STEMBytes/static/css/main.7eca90cc.css",
+    "main.js": "/STEMBytes/static/js/main.2249c566.js",
+    "static/media/project1.mov": "/STEMBytes/static/media/project1.48d5853b56a6e931e1e4.mov",
+    "static/media/project1a.png": "/STEMBytes/static/media/project1a.bedba2b7b94025a6a277.png",
+    "static/media/project1b.png": "/STEMBytes/static/media/project1b.11501c68ef06f5580881.png",
+    "static/media/about3.png": "/STEMBytes/static/media/about3.5ffd0a7559be989c0403.png",
+    "static/media/about2.png": "/STEMBytes/static/media/about2.beeb9381c87116ffdae6.png",
+    "static/media/about1.png": "/STEMBytes/static/media/about1.e52dfa939fab4360caa2.png",
+    "static/media/contact.png": "/STEMBytes/static/media/contact.60a2775183bfd91400e0.png",
+    "static/media/home-copy.png": "/STEMBytes/static/media/home-copy.c427f9e151ac59ccbdb4.png",
+    "static/media/comingsoon.png": "/STEMBytes/static/media/comingsoon.52e27a7b18b31476096a.png",
+    "index.html": "/STEMBytes/index.html",
+    "main.7eca90cc.css.map": "/STEMBytes/static/css/main.7eca90cc.css.map",
+    "main.2249c566.js.map": "/STEMBytes/static/js/main.2249c566.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eca90cc.css",
+    "static/js/main.2249c566.js"
+  ]
+}
