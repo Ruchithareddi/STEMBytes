@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color:#735f9a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #242c34;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .nav-links .active {
+    color: #4d8af0; /* Light blue */
+  }
+  
+  .header-logo {
+    height: 50px; /* Increase the height */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+  }
+  

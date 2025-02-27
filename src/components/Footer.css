@@ -1,0 +1,150 @@
+/* Removes any white gap at the bottom of the page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: hsl(0, 1%, 75%);
+    padding: 30px 20px 10px;
+    margin: 0px 0px -30px ;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-about,
+.footer-contact,
+.footer-links,
+.footer-social {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-about {
+    margin: 10px 30px 40px 50px;
+}
+
+.footer-about h3 {
+    margin-left: 0; /* Aligns SPARK STEM heading with its paragraph */
+}
+
+.footer-about p,
+.footer-contact p,
+.footer-links ul li,
+.footer-social a {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: hsl(0, 1%, 75%);
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0px 20px 30px 30px;
+}
+
+.footer-links ul li a:hover {
+    color: hsl(0, 1%, 75%);
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: hsl(0, 1%, 75%);
+    padding: 8px 20px;
+    margin: 10px 20px 10px -10px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 30px; /* Makes the corners rounded */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-btn:hover {
+    background-color: hsl(0, 1%, 75%); /* Changes background on hover */
+    color: #2c3e50; /* Changes text color on hover */
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: hsl(0, 1%, 75%);
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: hsl(0, 1%, 75%);
+}
+
+.footer-bottom {
+    border-top: 1.5px solid hsl(0, 1%, 75%);
+    margin-top: 10px;
+    padding-top: 15px; /* Adjust the top padding */
+    padding-bottom: 20px; /* Add more space at the bottom */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+
+.footer-bottom-links a {
+    margin-left: 10px;
+    
+    color: hsl(0, 1%, 75%);
+    text-decoration: none;
+}
+
+.footer-bottom-links a:hover {
+    color: hsl(0, 1%, 75%);
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 14px 20px 20px 30px; /* Reduced bottom padding */
+    margin-top: -10px; /* Moved links slightly upward */
+    background-color: transparent; /* Ensures no background color */
+}
+
+.footer-links ul li {
+    margin-bottom: 9px; /* Adjust the spacing between links */
+    color: hsl(0, 1%, 75%); /* Ensure text color matches footer theme */
+}
+
+.footer-links ul li a {
+    color: hsl(0, 1%, 75%); /* Set the link text color */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.footer-links ul li a:hover {
+    color: hwb(180 26% 38%); /* Subtle hover effect */
+}
+
+.footer-contact p a {
+    color: hsl(0, 1%, 75%);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 1px;
+}
+
+.footer-contact p a:hover {
+    color: hwb(180 26% 38%);
+}
+
+.footer-contact {
+    flex: 1;
+    min-width: 250px;
+    margin-left: 70px; /* Moves Contact Us column slightly to the right */
+}
+
+.footer-social h3 {
+    margin-left: -20px; /* Moves Connect with Us heading to the left */
+}

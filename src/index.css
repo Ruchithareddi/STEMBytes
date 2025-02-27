@@ -1,0 +1,64 @@
+/* Global Styles - Apply Comic Sans MS font */
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background for a clean look */
+  color: #333; /* Slightly darker text color for readability */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Paragraphs and Text */
+p, span, div {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Buttons */
+button {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  background-color: #4CAF50; /* Green color for buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Links */
+a {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #1a73e8; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Containers and Sections */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 0px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

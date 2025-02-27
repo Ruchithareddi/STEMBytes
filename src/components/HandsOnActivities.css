@@ -1,0 +1,90 @@
+.hands-on-activities {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .hands-on-activities h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    margin-top: -30px;
+  }
+  
+  .activities-gallery {
+    margin-top: 2rem;
+  }
+  
+  .activities-gallery h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .activities-gallery video {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+  }
+  
+  .activities-gallery p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .photo-gallery {
+    margin-top: 2rem;
+  }
+  
+  .photo-gallery h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .photo-gallery .photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .photo-gallery .photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    object-fit: cover;
+  }
+  
+  .coming-soon-section {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .coming-soon-section h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Coming Soon Video Styling */
+  .coming-soon-video {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Coming Soon Image Styling */
+  .coming-soon-image {
+    max-width: 40%;
+    height: auto;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+  }
+  
